@@ -1,0 +1,7 @@
+interface:
+  display_name: "Flutter Content Standards"
+  short_description: "Flutter naming, constants, comments, and UTF-8 text rules"
+  default_prompt: "Use $flutter-code-standards-content to apply Flutter naming, constant, comment, and UTF-8 text standards."
+
+policy:
+  allow_implicit_invocation: false

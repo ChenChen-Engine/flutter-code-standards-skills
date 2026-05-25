@@ -1,0 +1,7 @@
+interface:
+  display_name: "Flutter Structure Standards"
+  short_description: "Flutter page structure, splitting, and complexity rules"
+  default_prompt: "Use $flutter-code-standards-structure to apply Flutter structure, split, and complexity rules."
+
+policy:
+  allow_implicit_invocation: false

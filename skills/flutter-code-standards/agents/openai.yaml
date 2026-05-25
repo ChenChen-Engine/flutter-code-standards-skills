@@ -1,0 +1,4 @@
+interface:
+  display_name: "Flutter Code Standards"
+  short_description: "Entry skill that routes to companion Flutter standards skills"
+  default_prompt: "Use $flutter-code-standards to route to the right companion Flutter standards skills for this repo."

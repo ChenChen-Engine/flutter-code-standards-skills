@@ -1,0 +1,7 @@
+interface:
+  display_name: "Flutter Safety Standards"
+  short_description: "Flutter testing boundaries and Figma asset landing rules"
+  default_prompt: "Use $flutter-code-standards-safety to apply Flutter testing-boundary and Figma asset-handling standards."
+
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,7 @@
+interface:
+  display_name: "Flutter ViewModel Standards"
+  short_description: "ViewModel layering, lifecycle, and widget organization"
+  default_prompt: "Use $flutter-code-standards-viewmodel to apply Flutter ViewModel, lifecycle, and widget organization standards."
+
+policy:
+  allow_implicit_invocation: false

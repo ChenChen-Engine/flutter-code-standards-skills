@@ -1,0 +1,7 @@
+interface:
+  display_name: "Flutter API Standards"
+  short_description: "Flutter callback, route API, and return-value rules"
+  default_prompt: "Use $flutter-code-standards-api to apply Flutter API, callback, and route result standards."
+
+policy:
+  allow_implicit_invocation: false
