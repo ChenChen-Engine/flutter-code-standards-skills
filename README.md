@@ -50,24 +50,28 @@ skills/
 
 ## 安装方式
 
-GitHub 上展示的安装方式以“复制 `skills/` 下的 skill 目录到本机技能目录”为准。
+推荐直接通过 `npx` 安装：
 
-### PowerShell
-
-```powershell
-git clone https://github.com/ChenChen-Engine/flutter-code-standards-skills.git
-
-$target = if ($env:CODEX_HOME) {
-  Join-Path $env:CODEX_HOME 'skills'
-} else {
-  Join-Path $env:USERPROFILE '.agents/skills'
-}
-
-New-Item -ItemType Directory -Force $target | Out-Null
-Copy-Item -Recurse -Force '.\flutter-code-standards-skills\skills\*' $target
+```bash
+npx flutter-code-standards-skills install
 ```
 
-### Bash
+默认安装目录：
+
+- 如果存在 `CODEX_HOME`，安装到 `$CODEX_HOME/skills`
+- 否则安装到 `~/.agents/skills`
+
+### 常用参数
+
+```bash
+npx flutter-code-standards-skills install --dry-run
+npx flutter-code-standards-skills install --force
+npx flutter-code-standards-skills install --dest /custom/path/to/skills
+```
+
+### 手动安装（备用）
+
+如果你不想走 `npx`，也可以手动复制：
 
 ```bash
 git clone https://github.com/ChenChen-Engine/flutter-code-standards-skills.git

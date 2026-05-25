@@ -1,0 +1,29 @@
+{
+  "name": "flutter-code-standards-skills",
+  "version": "1.0.0",
+  "description": "Install the flutter-code-standards skill package into Codex-compatible skill directories.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChenChen-Engine/flutter-code-standards-skills.git"
+  },
+  "homepage": "https://github.com/ChenChen-Engine/flutter-code-standards-skills",
+  "bin": {
+    "flutter-code-standards-skills": "./bin/install.js"
+  },
+  "files": [
+    "bin",
+    "skills",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "codex",
+    "skills",
+    "flutter",
+    "agent-skills"
+  ],
+  "engines": {
+    "node": ">=18"
+  }
+}
